@@ -65,8 +65,12 @@
             name: "Site Web",
           },
           {
-            id: 4,
+            id: 3,
             name: "Application Mobile",
+          },
+          {
+            id: 4,
+            name: "Modélisation",
           },
         ],
         tabContent: [
@@ -80,7 +84,8 @@
                 title: `AfricaUSE-SiteWeb`,
                 description:`Plate-forme Internet Multiservices  de gestion de fidélité commerciale, offres d’emploi, taxi,
 vente entre particuliers (annonces)`,
-                url:`https://www.africause.com`
+                url:`https://www.africause.com`,
+                private:false,
               },
               {
                 thumb: require("../../assets/images/portfolio/dp-portfolio-02.png"),
@@ -88,6 +93,7 @@ vente entre particuliers (annonces)`,
                 tag: "Application Mobile",
                 title: `AfricaUSE-AppMobile`,
                 description:`Application mobile Plate-forme Internet Multiservices  de gestion de fidélité commerciale AfricaUSE`,
+                private:false,
                 url:`https://www.africause.com/Multimedia/Apps/obatrade.app.africause.apk`
               },
               {
@@ -95,6 +101,7 @@ vente entre particuliers (annonces)`,
                 src: require("../../assets/images/portfolio/big/dp-big-portfolio-03.png"),
                 tag: "Site Web",
                 title: `Site web Lavage-Auto Sté EGCLEAN (Lyon,France)`,
+                private:false,
                 url:`http://www.egclean.fr`
               },
               {
@@ -102,6 +109,7 @@ vente entre particuliers (annonces)`,
                 src: require("../../assets/images/portfolio/big/dp-big-portfolio-04.png"),
                 tag: "Site Web",
                 title: `Site web Catalogue Produits Sté Lodeci-Meuble`,
+                private:false,
                 url:`https://www.lodedi-meuble.com`
               },
               {
@@ -109,6 +117,7 @@ vente entre particuliers (annonces)`,
                 src: require("../../assets/images/portfolio/big/dp-big--portfolio-03.jpg"),
                 tag: "Site Web",
                 title: `Site Web pour SPA (Salon de beauté, Maquillage)`,
+                private:false,
                 url:`https://www.lodedi-meuble.com`
               },
               {
@@ -116,6 +125,15 @@ vente entre particuliers (annonces)`,
                 src: require("../../assets/images/portfolio/big/dp-big--portfolio-03.jpg"),
                 tag: "Site Web",
                 title: `Site Web Générateur de CV`,
+                private:false,
+                url:`https://www.lodedi-meuble.com`
+              },
+              {
+                thumb: require("../../assets/images/portfolio/dp-portfolio-10.png"),
+                src: require("../../assets/images/portfolio/big/dp-big-portfolio-10.png"),
+                tag: "Site Web",
+                title: `Analyse et conception du projet Bon-marché avec Scrum(Méthode de gestion de projet agile)`,
+                private:true,
                 url:`https://www.lodedi-meuble.com`
               },
             ],
@@ -130,35 +148,41 @@ vente entre particuliers (annonces)`,
                 title: `AfricaUSE-SiteWeb`,
                 description:`Plate-forme Internet Multiservices  de gestion de fidélité commerciale, offres d’emploi, taxi,
 vente entre particuliers (annonces)`,
-                url:`https://www.africause.com`
+                url:`https://www.africause.com`,
+                private:false
+
               },
               {
                 thumb: require("../../assets/images/portfolio/dp-portfolio-03.png"),
                 src: require("../../assets/images/portfolio/big/dp-big-portfolio-03.png"),
                 tag: "Site Web",
                 title: `Site web Lavage-Auto Sté EGCLEAN (Lyon,France)`,
-                url:`http://www.egclean.fr`
+                url:`http://www.egclean.fr`,
+                private:false
               },
               {
                 thumb: require("../../assets/images/portfolio/dp-portfolio-04.png"),
                 src: require("../../assets/images/portfolio/big/dp-big-portfolio-04.png"),
                 tag: "Site Web",
                 title: `Site web Catalogue Produits Sté Lodeci-Meuble`,
-                url:`https://www.lodedi-meuble.com`
+                url:`https://www.lodedi-meuble.com`,
+                private:false
               },
               {
                 thumb: require("../../assets/images/portfolio/dp-portfolio-03.jpg"),
                 src: require("../../assets/images/portfolio/big/dp-big--portfolio-03.jpg"),
                 tag: "Site Web",
                 title: `Site Web pour SPA (Salon de beauté, Maquillage)`,
-                url:`https://www.lodedi-meuble.com`
+                url:`https://www.lodedi-meuble.com`,
+                private:false
               },
               {
                 thumb: require("../../assets/images/portfolio/dp-portfolio-03.jpg"),
                 src: require("../../assets/images/portfolio/big/dp-big--portfolio-03.jpg"),
                 tag: "Site Web",
                 title: `Site Web Générateur de CV (Projet Scolaire pour étudiant)`,
-                url:`https://www.lodedi-meuble.com`
+                url:`https://www.lodedi-meuble.com`,
+                private:false
               },
             ],
           },
@@ -171,7 +195,8 @@ vente entre particuliers (annonces)`,
                 tag: "Application Mobile",
                 title: `AfricaUSE-AppMobile`,
                 description:`Application mobile Plate-forme Internet Multiservices  de gestion de fidélité commerciale AfricaUSE`,
-                url:`https://www.africause.com/Multimedia/Apps/obatrade.app.africause.apk`
+                url:`https://www.africause.com/Multimedia/Apps/obatrade.app.africause.apk`,
+                private:false
               },
             ],
           },
@@ -179,22 +204,12 @@ vente entre particuliers (annonces)`,
             id: 4,
             content: [
               {
-                thumb: require("../../assets/images/portfolio/dp-portfolio-01.jpg"),
-                src: require("../../assets/images/portfolio/big/dp-big--portfolio-01.jpg"),
-                tag: "Mobile App",
-                title: `T-shirt design is the part of design`,
-              },
-              {
-                thumb: require("../../assets/images/portfolio/dp-portfolio-03.jpg"),
-                src: require("../../assets/images/portfolio/big/dp-big--portfolio-03.jpg"),
-                tag: "Mobile App",
-                title: `Mobile App landing Design`,
-              },
-              {
-                thumb: require("../../assets/images/portfolio/dp-portfolio-05.jpg"),
-                src: require("../../assets/images/portfolio/big/dp-big--portfolio-05.jpg"),
-                tag: "Mobile App",
-                title: `Getting tickets to the big show`,
+                thumb: require("../../assets/images/portfolio/dp-portfolio-10.png"),
+                src: require("../../assets/images/portfolio/big/dp-big-portfolio-10.png"),
+                tag: "Site Web",
+                title: `Analyse et conception du projet Bon-marché avec Scrum(Méthode de gestion de projet agile)`,
+                private:true,
+                url:`https://www.lodedi-meuble.com`
               },
             ],
           },

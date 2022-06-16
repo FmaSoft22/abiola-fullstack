@@ -12,3 +12,5 @@ git add -A
 git commit -m 'deploy'
 git push -f git@github.com:FmaSoft22/abiola-fullstack.git main:root
 cd -
+
+git push -f git@github.com:FmaSoft22/abiola-fullstack.git main:root
